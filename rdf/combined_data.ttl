@@ -1,0 +1,1145 @@
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix s: <https://lod.nal.usda.gov/nalt/shapes/> .
+@prefix nalt: <https://lod.nal.usda.gov/nalt/> .
+
+s:DairyCowCountObservation_b33
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9314.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b34
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9202.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b35
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9123.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b36
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9199.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b37
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9237.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b38
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9224.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b39
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9261.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b40
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9320.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b41
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9334.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b42
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9406.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b43
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9398.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b44
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9335.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b45
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9396.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b46
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9449.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b47
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9400.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:DairyCowCountObservation_b48
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_dairyCowCount [
+        qudt:value "9386.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000"^^xsd:decimal
+    ] .
+
+s:TotalMilkProductionObservation_d33
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "189978.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d34
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "189202.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d35
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "192877.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d36
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "196255.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d37
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "200642.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d38
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "201260.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d39
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "206048.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d40
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "208508.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d41
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "212451.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d42
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "215527.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d43
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "217584.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d44
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "218444.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d45
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "223282.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d46
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "226238.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d47
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "226416.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:TotalMilkProductionObservation_d48
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_totalMilkProduction [
+        qudt:value "226364.00"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ;
+        qudt:unit unit:LB
+    ] .
+
+s:AverageAllMilkPriceObservation_e33
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "18.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e34
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "12.80"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e35
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "16.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e36
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "20.10"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e37
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "18.50"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e38
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "20.10"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e39
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "24.00"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e40
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "17.10"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e41
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "16.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e42
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "17.70"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e43
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "16.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e44
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "18.70"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e45
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "18.10"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e46
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "18.50"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e47
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "25.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:AverageAllMilkPriceObservation_e48
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_averageAllMilkPrice [
+        qudt:value "20.50"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f33
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "9.17"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f34
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.27"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f35
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.20"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f36
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "10.76"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f37
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "12.15"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f38
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "11.71"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f39
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "9.51"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f40
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "8.04"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f41
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.26"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f42
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.30"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f43
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.95"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f44
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "8.32"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f45
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "7.92"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f46
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "10.63"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f47
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "13.32"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:DairyRationCostObservation_f48
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_dairyRationCost [
+        qudt:value "12.13"^^xsd:decimal ;
+        qudt:unit nalt:_dollarsPerCWT
+    ] .
+
+s:TotalMilkConsumedObservation_b3
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "55170"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b4
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "55433"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b5
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "54870"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b6
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "53938"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b7
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "53083"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b8
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "51923"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b9
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "50368"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b10
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "49648"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b11
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "49349"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b12
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "48269"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b13
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "47235"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b14
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "46417"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b15
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "46366"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b16
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "44517"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b17
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "43448"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:TotalMilkConsumedObservation_b18
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_totalMilkConsumed [
+        qudt:value "42823"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .   
+
+
+s:MilkPlantsObservation_c3
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_numberOfPlants "400"^^xsd:integer .
+
+s:MilkPlantsObservation_c4
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_numberOfPlants "392"^^xsd:integer .
+
+s:MilkPlantsObservation_c5
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_numberOfPlants "404"^^xsd:integer .
+
+s:MilkPlantsObservation_c6
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_numberOfPlants "388"^^xsd:integer .
+
+s:MilkPlantsObservation_c7
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_numberOfPlants "399"^^xsd:integer .
+
+s:MilkPlantsObservation_c8
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_numberOfPlants "414"^^xsd:integer .
+
+s:MilkPlantsObservation_c9
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_numberOfPlants "440"^^xsd:integer .
+
+s:MilkPlantsObservation_c10
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_numberOfPlants "456"^^xsd:integer .
+
+s:MilkPlantsObservation_c11
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_numberOfPlants "445"^^xsd:integer .
+
+s:MilkPlantsObservation_c12
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_numberOfPlants "444"^^xsd:integer .
+
+s:MilkPlantsObservation_c13
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_numberOfPlants "458"^^xsd:integer .
+
+s:MilkPlantsObservation_c14
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_numberOfPlants "445"^^xsd:integer .
+
+s:MilkPlantsObservation_c15
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_numberOfPlants "453"^^xsd:integer .
+
+s:MilkPlantsObservation_c16
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_numberOfPlants "466"^^xsd:integer .
+
+s:MilkPlantsObservation_c17
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_numberOfPlants "463"^^xsd:integer .
+
+s:MilkPlantsObservation_c18
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_numberOfPlants "453"^^xsd:integer .
+
+s:AverageVolumePerPlantObservation_d3
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2008"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "137.9"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d4
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2009"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "141.4"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d5
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2010"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "135.8"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d6
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2011"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "139.0"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d7
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2012"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "133.0"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d8
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2013"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "125.4"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d9
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2014"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "114.5"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d10
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2015"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "108.9"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d11
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2016"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "110.9"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d12
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2017"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "108.7"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d13
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2018"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "103.1"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d14
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2019"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "104.3"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d15
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2020"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "102.4"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d16
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2021"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "95.5"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d17
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2022"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "93.8"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .
+
+s:AverageVolumePerPlantObservation_d18
+    rdf:type qb:Observation ;
+    dct:subject nalt:_Dairy ;
+    nalt:_location "US" ;
+    nalt:_year "2023"^^xsd:gYear ;
+    nalt:_volumeProcessed [
+        qudt:value "94.5"^^xsd:decimal ;
+        qudt:conversionMultiplier "1000000"^^xsd:decimal ; 
+        qudt:unit unit:LB
+    ] .

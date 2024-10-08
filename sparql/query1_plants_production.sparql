@@ -1,0 +1,49 @@
+# Q: How do the number of dairy processing plants and the volume of milk processed 
+# affect the overall milk production and consumption in the US, 
+# and what role do production costs (including dairy ration cost) play in 
+# influencing milk prices and production efficiency over time?
+prefix dct: <http://purl.org/dc/terms/> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix qudt: <http://qudt.org/schema/qudt/> 
+prefix unit: <http://qudt.org/vocab/unit/> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix s: <https://lod.nal.usda.gov/nalt/shapes/> 
+prefix nalt: <https://lod.nal.usda.gov/nalt/> 
+
+
+SELECT ?year ?dairyCowCount ?totalMilkProduction ?dairyRationCost ?averageMilkPrice ?numberOfPlants ?volumeProcessed ?totalMilkConsumed
+WHERE {
+  ?dairyCowCountObs a qb:Observation ;
+               nalt:_year ?year ;
+               nalt:_dairyCowCount ?dairyCowCountValue .
+  ?totalMilkObs a qb:Observation ;
+               nalt:_year ?year ;
+               nalt:_totalMilkProduction ?totalMilkProductionValue .
+  ?dairyRatioCostObs a qb:Observation ;
+              nalt:_year ?year ;
+              nalt:_dairyRationCost ?dairyRationCostValue .
+  ?averageMilkPriceObs a qb:Observation ;
+              nalt:_year ?year ;
+              nalt:_averageAllMilkPrice ?milkPriceValue .
+  ?numberPlantsObs a qb:Observation ;
+              nalt:_year ?year ;
+              nalt:_numberOfPlants ?numberOfPlants .
+  ?volumeProcessedPbs a qb:Observation ;
+              nalt:_year ?year ;
+              nalt:_volumeProcessed ?volumeProcessedValue .
+  ?totalMilkConsumedObs a qb:Observation ;
+              nalt:_year ?year ;
+              nalt:_totalMilkConsumed ?totalMilkConsumedValue .
+               
+
+  ?dairyCowCountValue qudt:value ?dairyCowCount .
+  ?totalMilkProductionValue qudt:value ?totalMilkProduction .
+  ?dairyRationCostValue qudt:value ?dairyRationCost .
+  ?milkPriceValue qudt:value ?averageMilkPrice .
+  ?volumeProcessedValue qudt:value ?volumeProcessed .
+  ?totalMilkConsumedValue qudt:value ?totalMilkConsumed .
+
+  FILTER (?year >= "2008"^^xsd:gYear)  
+}
+ORDER BY ?year

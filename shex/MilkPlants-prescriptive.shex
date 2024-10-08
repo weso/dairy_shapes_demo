@@ -1,0 +1,54 @@
+prefix dct: <http://purl.org/dc/terms/> 
+prefix qudt: <http://qudt.org/schema/qudt/> 
+prefix unit: <http://qudt.org/vocab/unit/> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix ex: <http://example.org/>
+prefix nalt: <https://lod.nal.usda.gov/nalt/> 
+prefix s: <https://lod.nal.usda.gov/nalt/shapes/> 
+
+s:MilkPlantsDataSet {
+    rdf:type [ qb:DataSet ]; 
+    qb:slice @s:TotalMilkConsumedSlice ;
+    qb:slice @s:MilkPlantsSlice ;
+    qb:slice @s:AverageVolumePerPlantSlice ;
+}
+s:TotalMilkConsumedSlice { 
+    qb:observation @s:TotalMilkConsumed * ;
+}
+s:MilkPlantsSlice { 
+    qb:observation @s:NumberOfPlants * ;
+} 
+s:AverageVolumePerPlantSlice { 
+    qb:observation @s:AverageVolumePerPlant * ;
+}
+s:TotalMilkConsumed { 
+    nalt:_totalMilkConsumed @s:milkVolume ;
+    rdf:type [ qb:Observation ];
+    dct:subject [ nalt:_Dairy ]; 
+    nalt:_location .  ;
+    nalt:_year xsd:gYear ;
+    qb:dataSet . ;
+}
+s:NumberOfPlants { 
+    nalt:_numberOfPlants xsd:integer ;
+    rdf:type [ qb:Observation ];
+    dct:subject [ nalt:_Dairy ]; 
+    nalt:_location .  ;
+    nalt:_year xsd:gYear ;
+    qb:dataSet . ;
+}
+s:AverageVolumePerPlant { 
+    nalt:_volumeProcessed @s:milkVolume ;
+    rdf:type [ qb:Observation ];
+    dct:subject [ nalt:_Dairy ]; 
+    nalt:_location .  ;
+    nalt:_year xsd:gYear ;
+    qb:dataSet . ;
+}
+s:milkVolume {
+    qudt:value xsd:decimal ;
+    qudt:conversionMultiplier xsd:decimal ;
+    qudt:unit [ unit:LB ]
+}
